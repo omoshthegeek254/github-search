@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ProfileService } from './services/profile.service';
 import{HttpClientModule} from '@angular/common/http';
+import { ProfPicDirective } from './prof-pic.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProfileComponent
+    ProfileComponent,
+    ProfPicDirective
   ],
   imports: [
     BrowserModule,
