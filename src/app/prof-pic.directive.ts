@@ -5,8 +5,8 @@ import { Directive ,ElementRef} from '@angular/core';
 })
 export class ProfPicDirective {
 
-  constructor(private elem:ElementRef){
-    this.elem.nativeElement.style.textDecoration='line-through';
-  }
+  constructor(elem: ElementRef) {
+    elem.nativeElement.style.borderRadius = '30%';
 
+   }
 }
