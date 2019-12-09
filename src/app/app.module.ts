@@ -11,6 +11,7 @@ import { ProfPicDirective } from './prof-pic.directive';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { DateFormatPipe } from './date-format.pipe';
 import {TimeAgoPipe} from 'time-ago-pipe';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import {TimeAgoPipe} from 'time-ago-pipe';
     ProfPicDirective,
     LandingPageComponent,
     DateFormatPipe,
-    TimeAgoPipe
+    TimeAgoPipe,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
