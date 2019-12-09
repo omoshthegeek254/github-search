@@ -4,7 +4,7 @@
         <div class="input-group flex-nowrap">
 
             <div class="input-group-prepend">
-              <span class="input-group-text" id="addon-wrapping">Search Developer</span>
+              <span class="input-group-text bg-warning" id="addon-wrapping">Search Developer</span>
             </div>
             <input type="text" class="form-control" placeholder="Lookup in Github" aria-label="look-up-github" aria-describedby="addon-wrapping" [(ngModel)]="username"  name="username" (keyup)="getProfile()">
           </div>
@@ -30,10 +30,10 @@
                     <span class="badge badge-secondary mr-1"
                       >{{ profile.public_gists }} Gists</span
                     >
-                    <span class="badge badge-success mr-1">
+                    <span class="badge badge-primary mr-1">
                       {{ profile.followers }} Followers</span
                     >
-                    <span class="badge badge-danger mr-1">
+                    <span class="badge badge-secondary mr-1">
                       {{ profile.following }} Following</span
                     >
                   </div>
@@ -59,7 +59,7 @@
                   </ul>
                 </div>
               </div>
-              <p><a href="{{profile.html_url}}" target="_blank" class="btn btn-success">View profile on github</a></p>
+              <p><a href="{{profile.html_url}}" target="_blank" class="btn btn-warning">Checkout Github </a></p>
             </div>
           </div>
           <div class="col-md-6">
