@@ -1,14 +1,14 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
+import {environment } from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProfileService {
   private username:string;
-  private clientid = "9cf258b6c15ba468ae60" 
-  private clientsecret = "b96aea5130b1946f4bfaefc5432dd16619660dbb";
-
+  private clientid = environment.clientid;
+  private clientsecret =environment.clientsecret;
   constructor(private http:HttpClient) {
     this.username="omoshthegeek254";
    }
