@@ -8,6 +8,9 @@ import { ProfileComponent } from './profile/profile.component';
 const routes: Routes = [
   { path: 'profile', component: ProfileComponent},
   { path: 'landingpage', component: LandingPageComponent},
+  { path:'**', component:LandingPageComponent},
+
+  { path: '', redirectTo:"/landingpage", pathMatch:"full"},
 ];
 
 @NgModule({
