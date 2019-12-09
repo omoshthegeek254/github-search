@@ -5,7 +5,10 @@ import { ProfileComponent } from './profile/profile.component';
 
 
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: 'profile', component: ProfileComponent},
+  { path: 'landingpage', component: LandingPageComponent},
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
