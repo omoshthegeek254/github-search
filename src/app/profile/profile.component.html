@@ -6,9 +6,10 @@
             <div class="input-group-prepend">
               <span class="input-group-text" id="addon-wrapping">Search Developer</span>
             </div>
-            <input type="text" class="form-control" placeholder="Lookup in Github" aria-label="look-up-github" aria-describedby="addon-wrapping">
+            <input type="text" class="form-control" placeholder="Lookup in Github" aria-label="look-up-github" aria-describedby="addon-wrapping" [(ngModel)]="username"  name="username" (keyup)="getProfile()">
           </div>
             <div class="card-header">
+              {{username}}
               <h2>Developer Name: {{ profile.name }}</h2>
             </div>
             <div class="card-body">
