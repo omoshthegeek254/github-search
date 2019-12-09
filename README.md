@@ -3,6 +3,11 @@
 ## About 
 - In this project is an angular aplication that can be used to search github user information. It utilises Github API to achieve this
 
+## Contributor
+- Elvin Omonche (Omosh Thegeek)
+
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
