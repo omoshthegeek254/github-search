@@ -1,6 +1,7 @@
-# Tut3
+# Github Search
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
+## About 
+- In this project is an angular aplication that can be used to search github user information. It utilises Github API to achieve this
 
 ## Development server
 
