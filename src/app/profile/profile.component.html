@@ -52,7 +52,9 @@
                       <strong>Blog:</strong>{{profile .blog }}
                     </li>
                     <li class="list-group-item">
-                      <strong>Member Since</strong>{{ profile.created_at|date }}
+                        <strong>Member Since : </strong>{{ profile.created_at|timeAgo }}
+                      
+                      <strong>Joined on : </strong>{{ profile.created_at|date }}
                     </li>
                   </ul>
                 </div>

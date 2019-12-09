@@ -9,13 +9,17 @@ import { ProfileService } from './services/profile.service';
 import{HttpClientModule} from '@angular/common/http';
 import { ProfPicDirective } from './prof-pic.directive';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { DateFormatPipe } from './date-format.pipe';
+import {TimeAgoPipe} from 'time-ago-pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProfileComponent,
     ProfPicDirective,
-    LandingPageComponent
+    LandingPageComponent,
+    DateFormatPipe,
+    TimeAgoPipe
   ],
   imports: [
     BrowserModule,
