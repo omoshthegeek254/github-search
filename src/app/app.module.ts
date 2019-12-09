@@ -8,12 +8,14 @@ import { ProfileComponent } from './profile/profile.component';
 import { ProfileService } from './services/profile.service';
 import{HttpClientModule} from '@angular/common/http';
 import { ProfPicDirective } from './prof-pic.directive';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProfileComponent,
-    ProfPicDirective
+    ProfPicDirective,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,
